@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/metaData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="잠시 후 결과가 표시됩니다."
+        android:textColor="#ff000000"
+        android:fontFamily="@font/tmonmonsori"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/pm10Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/metaData"
+        android:text="pm10Value : "
+        android:fontFamily="@font/tmonmonsori"/>
+    <TextView
+        android:id="@+id/pm25Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/pm10Value"
+        android:text="pm2.5Value : "
+        android:fontFamily="@font/tmonmonsori"/>
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/pm25Value"
+        android:textColor="#ff000000"
+        android:text="닫기"/>
+</RelativeLayout>

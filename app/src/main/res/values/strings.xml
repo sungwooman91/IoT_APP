@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">SmartHomeAPP</string>
+    <!-- MainActivity View -->
+    <string name="main_msg">MAIN MENU</string>
+    <string name="start_msg">장비 제어</string>
+    <string name="com_setting_msg">통신 설정</string>
+    <string name="quit_msg">종료</string>
+    <!-- MainActivity View -->
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">장치 검색 중</string>
+    <string name="select_device">선택한 장치를 연결</string>
+    <string name="non_paired">장치가 아직 상호연결 되지 않았습니다.</string>
+    <string name="non_found">장치를 찾을 수 없습니다.</string>
+    <string name="title_paired_devices">장치를 상호연결 합니다</string>
+    <string name="title_other_devices">연결가능한 다른 장치</string>
+    <string name="button_scan">장치 스캔</string>
+
+    <!-- DeviceListActivity -->
+
+    <!-- acivity_control_doorlock view && DoorLockControlActivity.java-->
+    <string name="door_open">열 기</string>
+    <string name="door_close">잠그기</string>
+    <string name="bluetooth">블루투스 설정</string>
+    <string name="bluetooth_setting">블루투스</string>
+    <!-- acivity_control_doorlock view-->
+
+
+    <!-- activity_control_light view-->
+    <string name="light_control_bar_text">밝기 조절</string>
+    <string name="light_control_data_text">전송</string>
+    <string name="control_info">이 곳에 정보가 표시됩니다.</string>
+    <!-- activity_control_light view-->
+
+    <!-- activity_control tower view-->
+    <string name="voice_button">음성제어</string>
+    <string name="smart_button">스마트 기능</string>
+    <string name="ai_button">인공지능</string>
+    <!-- control tower view-->
+
+    <!-- activity_control_window view-->
+    <string name="switching_mode_button">스위칭</string>
+    <!-- activity_control_window view-->
+
+    <!-- activity_device_status view-->
+    <string name="notice">버튼을 눌러 집 안의 상태를 확인할 수 있습니다.</string>
+    <!-- activity_device_status view-->
+
+
+    <!-- activity_ranking_result view -->
+    <string name="waiting_msg">잠시 후 결과가 출력됩니다.</string>
+
+    <!-- activity_ranking_result view -->
+
+    <!-- activity_speech view-->
+    <string name="mic">버튼을 누른 뒤 마이크에 대고 말하세요</string>
+    <!-- activity_speech view-->
+
+    <!-- activity_tcp_ip_setting view-->
+    <string name="textview_ip">IP : </string>
+    <string name="textview_port">Port : </string>
+    <string name="save_button">저장</string>
+
+    <string name="comsetting">통신 설정</string>
+    <!-- activity_tcp_ip_setting view-->
+
+    <!-- activity_smart_control view-->
+    <string name="complete">완료</string>
+    <string name="local_select">지역 선택</string>
+    
+    <string name="microdust_check">미세먼지 확인하기</string>
+    <string name="th_guidance">그래프로 알아보기</string>
+    <string name="th_graph">온·습도</string>
+    <string name="dust_graph">미세먼지</string>
+    <string name="smart_control_msg">스마트 컨트롤 시스템</string>
+    <string name="on">켜기</string>
+    <string name="off">끄기</string>
+    <string name="naver_rank">네이버 실시간 검색어 순위</string>
+    <string name="naver_guide">1위 부터 20위 까지</string>
+    <string name="search_rank">확인하기</string>
+    <string name="save">저장</string>
+    <!-- activity_smart_control view-->
+
+
+    <!-- BlueToothSettingActivity.java -->
+    <string name="unsupported_bt_message">블루투스가 지원되는 모델이 아닙니다.</string>
+    <string name="supported_bt_message">블루투스가 지원되는 모델입니다.</string>
+    <string name="success_message">블루투스 연결에 성공했습니다.</string>
+    <string name="bluetooth_cancel_message">블루투스 연결을 취소했습니다.</string>
+    <!-- BlueToothSettingActivity.java -->
+
+
+    <!-- DeviceStatusActivity.java-->
+    <string name="all_device_check_msg">모든 기기 상태 확인</string>
+    <string name="com_check_msg">IP나 PORT 설정이 되어있는지 확인하세요</string>
+    <!-- DeviceStatusActivity.java-->
+
+
+    <!-- DoorLockControlActivity.java
+    참고 acivity_control_doorlock view 참고
+    DoorLockControlActivity.java -->
+
+    <!-- LightControlActivity.java -->
+    <string name="SIGN">OK</string>
+    <!-- LightControlActivity.java -->
+
+    <!-- MicroDustResultActivity -->
+    <string name="pm10ValueText">pm10Value : </string>
+    <string name="pm25ValueText">pm25Value : </string>
+    <string name="local">지역 : </string>
+    <!-- MicroDustResultActivity -->
+
+
+    <!-- SmartControlActivity.java-->
+    <string name="Seoul">서울</string>
+    <string name="Gyeonggi">경기</string>
+    <string name="Daegu">대구</string>
+    <string name="smartActivate">스마트모드가 활성화 되었습니다.</string>
+    <string name="smartdeActivate">스마트모드가 비활성화 되었습니다.</string>
+    <!-- SmartControlActivity.java-->
+
+
+    <!-- SpeechActivity.java -->
+    <string name="speech_msg">명령을 내려주세요</string>
+    <!-- SpeechActivity.java -->
+</resources>

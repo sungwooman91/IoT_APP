@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.hkit.iotmobile">
+
+    <!--IoT 제어에 필요한 인터넷과 블루투스 통신을 위한 권한 등록-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <!--IoT 제어에 필요한 인터넷과 블루투스 통신을 위한 권한 등록-->
+
+    <!-- 권한 -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AIActivity"/>
+        <activity android:name=".ControlTowerActivity" />
+
+        <activity android:name=".CurtainControlActivity"/>
+        <activity android:name=".DeviceStatusActivity"/>
+        <activity android:name=".DoorLockControlActivity"/>
+        <activity android:name=".DustGraphViewActivity"/>
+        <activity android:name=".LightControlActivity"/>
+        <activity android:name=".NaverRankingResultActivity"/>
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".SmartControlActivity"/>
+        <activity android:name=".SpeechActivity" />
+        <activity android:name=".GraphViewActivity"/>
+        <activity android:name=".WindowControlActivity" />
+        <activity android:name=".MicroDustResultActivity" android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"/>
+        <!--팝업으로 열기 http://son10001.blogspot.com/2016/02/android-studio_29.html
+        -->
+
+    </application>
+
+</manifest>

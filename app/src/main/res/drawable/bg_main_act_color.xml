@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <gradient
+        android:angle="270"
+        android:startColor="#00ff7b"
+        android:centerColor="#95f4ff"
+        android:endColor="#00ff7b"
+        android:type="linear" />
+
+    <!--angle은 0~360도까지,
+    type은 sweep도 있는듯. 중앙을 기준으로 360도-->
+</shape>
+<!-- 이거 쉐이프에선 배경 소스 쓸 수 없는 듯 하다 그냥 리니어 레이아웃에서 배경 쓴 담에 컬러 넣어야할듯 -->
+<!--이 경로 폴더 누르고 New-Drawable resource file-파일명.xml 이라고 쓰면 된다~-->

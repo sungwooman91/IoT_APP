@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinner_dosi">
+        <item>서울</item>
+        <item>경기</item>
+        <item>대구</item>
+    </string-array>
+
+    <string-array name="spinner_gudong">
+        <item>중구</item>
+        <item>한강대로</item>
+        <item>종로구</item>
+        <item>청계천로</item>
+        <item>종로</item>
+        <item>용산구</item>
+        <item>광진구</item>
+        <item>성동구</item>
+        <item>강변북로</item>
+        <item>중랑구</item>
+        <item>동대문구</item>
+        <item>홍릉로</item>
+        <item>성북구</item>
+        <item>정릉로</item>
+        <item>도봉구</item>
+        <item>은평구</item>
+        <item>서대문구</item>
+        <item>마포구</item>
+        <item>신촌로</item>
+        <item>강서구</item>
+
+    </string-array>
+
+    <string-array name="spinner_gudong2">
+        <item>신풍동</item>
+        <item>인계동</item>
+        <item>광교동</item>
+        <item>영통동</item>
+        <item>천천동</item>
+        <item>경수대로(동수원)</item>
+        <item>고색동</item>
+        <item>대왕판교로(백현동)</item>
+        <item>단대동</item>
+        <item>수내동</item>
+        <item>성남대로(모란역)</item>
+        <item>복정동</item>
+        <item>운중동</item>
+        <item>상대원동</item>
+        <item>의정부동</item>
+        <item>의정부1동</item>
+        <item>안양6동</item>
+        <item>부림동</item>
+        <item>호계동</item>
+        <item>안양2동</item>
+    </string-array>
+
+    <string-array name="spinner_gudong3">
+        <item>수창동</item>
+        <item>지산동</item>
+        <item>서호동</item>
+        <item>이현동</item>
+        <item>평리동</item>
+        <item>대명동</item>
+        <item>노원동</item>
+        <item>신암동</item>
+        <item>태전동</item>
+        <item>만촌동</item>
+        <item>호림동</item>
+        <item>현풍면</item>
+        <item>이곡동</item>
+        <item>시지동</item>
+        <item>진천동</item>
+    </string-array>
+
+</resources>

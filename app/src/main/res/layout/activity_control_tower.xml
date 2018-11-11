@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#222222"
+    tools:context=".ControlTowerActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/LightCtrlButton"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/electric_bulb"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/WindowCtrlButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/window_picture"
+            />
+        <ImageButton
+            android:id="@+id/CurtainCtrlButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/curtain"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/speech_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="@font/tmonmonsori"
+            android:text="@string/voice_button"
+            android:textColor="#3f005e" />
+
+        <Button
+            android:id="@+id/smart_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/tmonmonsori"
+            android:text="@string/smart_button"
+            android:textColor="#4897ff" />
+
+        <Button
+            android:id="@+id/ai_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:fontFamily="@font/tmonmonsori"
+            android:text="@string/ai_button"
+            android:textColor="#e600ff" />
+    </RelativeLayout>
+
+    <!--음성제어는 OK메세지만 보내고 장비를 직접확인하거나 상태창에서 따로 확인하도록 하자.. 그냥 하면 너무 귀찮아짐-->
+</LinearLayout>

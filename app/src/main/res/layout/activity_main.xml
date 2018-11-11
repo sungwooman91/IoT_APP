@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/bg_main_act_color"
+
+    tools:context=".MainActivity"
+    >
+    <!--R:00,G:00,B:00 Alpha(투명도)값은 제외-->
+    <!--padding은 안쪽 여백-->
+    <!--wrap_content옵션은 사용한 곳까지만 채움-->
+    <!--ctrl+shift+/ == 주석 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_main_menu"
+        android:fontFamily="@font/press_start_2p"
+
+        android:text="@string/main_msg"
+        android:textAlignment="center"
+        android:textColor="#fdf000"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/controlButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/sdmisaeng"
+            android:text="@string/start_msg"
+            android:textColor="@android:color/holo_red_light"
+            android:drawableLeft="@drawable/remote"
+            android:paddingLeft="18dip"
+            android:background="@drawable/btn_background"
+            android:scaleType="centerCrop"
+            android:textSize="50sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/CheckStatus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/check_box"
+            android:paddingLeft="18dip"
+            android:fontFamily="@font/sdmisaeng"
+            android:scaleType="centerCrop"
+            android:text="상태 확인"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="50sp"
+            android:background="@drawable/btn_background"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/ComSettingButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/sdmisaeng"
+            android:text="@string/com_setting_msg"
+            android:drawableLeft="@drawable/setting_icon"
+            android:paddingLeft="18dip"
+            android:textColor="@android:color/holo_blue_light"
+            android:background="@drawable/btn_background"
+            android:textSize="50sp"/>
+        <Button
+            android:id="@+id/QuitButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/sdmisaeng"
+            android:text="@string/quit_msg"
+            android:drawableLeft="@drawable/quit_icon"
+            android:paddingLeft="18dip"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_background"
+            android:textSize="50sp"/>
+    </LinearLayout>
+
+    <!--weight(가중치)를 쓰면 해상도에 영향X-->
+    <!--상단 중앙 center_horizontal-->
+
+<!--dp나 sp나 사실 같은데 dp는 텍스트에만 씀-->
+<!--sp - 텍스트 폰트에 적합-->
+</LinearLayout>
